@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Layout css */
+.container {
+    background-color: #fff;
+    width: 450px;
+    height: 530px;
+    border: 2px solid #1c4561;
+    border-radius: 30px;
+    /* Center Layout */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    padding: 17px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1c4561;
+    text-align: center;
+    border-bottom: 2px solid #1c4561;
+}
+
+.type_list {
+    margin: auto;
+    color: #1c4561;
+    width: 400px;
+}
+    
+.type_list h2 {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 20px 0px 60px 0px;
+}
+
+.check_list{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.check_list img{
+    vertical-align: -5px;
+    width: 23px;
+    height: 23px;
+}
+
+.next_stage {
+    display: block;
+    color: #1c4561;
+    text-align: center;
+    margin-top: 67px;
+    padding: 15px;
+}
+
+.btn_confirm {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    color: 154666;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1.5px solid #1c4561;
+}
+
+.btn_confirm:hover{
+    background-color: #1c4561;
+    color: white;
+    cursor: pointer;
+}

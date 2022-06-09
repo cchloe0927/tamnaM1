@@ -5,10 +5,10 @@ function keepLogin() {
   // console.log(currentClass)
 
   if (currentClass == "empty") {
-    checkbox.src = "index_icon_img/icon_check.png";
+    checkbox.src = "info_icon_img/icon_check.png";
     checkbox.classList.remove("empty");
   } else {
-    checkbox.src = "index_icon_img/icon_check_empty.png";
+    checkbox.src = "info_icon_img/icon_check_empty.png";
     checkbox.classList.add("empty");
   }
 }

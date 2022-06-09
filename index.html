@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BREAKERS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 </head>
 <body>
     <div class="status-bar">
@@ -23,48 +24,25 @@
         </div>
     </div>
 
-    <div class="container">
-        <h1 class="header">일하는 유형</h1>
-    
-        <div class="type_list">
-            <h2>✅ 개인별 유형에 맞춰 워크 스페이스를 추천해 드려요 ✅</h2>
+    <div class="main_container">
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">
+                <a href="file:///Users/leehyunjeong/git_hub/tamnaM1/info.html"
+                   style="color: white;">BREAKERS</a>
+            </h1>
+            <p class="welcome-header__text">Welcome to the BREAKERS</p>
+        </header>
 
-            <div class="check_list">
-                <span>디테일 리스트</span>
-                <img id="check" class="empty" style="margin-left: 50px;" 
-                    src="index_icon_img/icon_check_empty.png">
-            </div>
-            <div class="check_list">
-                <span>커뮤니 케이터</span>
-                <img id="check" class="empty" style="margin-left: 50px;" 
-                    src="index_icon_img/icon_check_empty.png">
-            </div>
-            <div class="check_list">
-                <span>목표 달성자</span>
-                <img id="check" class="empty" style="margin-left: 65.5px;" 
-                    src="index_icon_img/icon_check_empty.png">
-            </div>
-            <div class="check_list">
-                <span>프로세서</span>
-                <img id="check" class="empty" style="margin-left: 85.5px;" 
-                    src="index_icon_img/icon_check_empty.png">
-            </div>
-            <div class="check_list">
-                <span>불도저</span>
-                <img id="check" class="empty" style="margin-left: 101px;"
-                    src="index_icon_img/icon_check_empty.png">
-            </div>
-
-            <a class="next_stage" href="file:///Users/leehyunjeong/git_hub/tamnaM1/detail.html">다음에 할래요</a>
-            <button onclick="location.href='file:///Users/leehyunjeong/git_hub/tamnaM1/detail.html';" 
-                    type="button" class="btn_confirm">확인</button>
-        </div>
+        <form id="category">
+            <p class="work">work</p>
+            <p class="rest">rest</a>
+            <p class="play">play</p>
+        </form>
     </div>
 
-    <script 
+    <script
         src="https://kit.fontawesome.com/e7998fb1be.js" 
         crossorigin="anonymous">
     </script>
-    <script src="index.js"></script>
 </body>
 </html>
